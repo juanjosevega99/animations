@@ -78,11 +78,19 @@
   }
 </style>
 
+<<<<<<< HEAD
 <!-- <div class="Loading" /> -->
 <div class="characters">
 	{#each characters as character}
 		<figure>
 			<img src={character.image} alt={character.name} />
+=======
+<div class="Loading" />
+<div class="characters">
+	{#each characters as character}
+		<figure>
+			<img src="{character.image}" alt="{character.name}">
+>>>>>>> 13b33debde455ac00ebe08348cc406a44e606874
 			<figcaption>{character.name}</figcaption>
 		</figure>
 	{:else}
