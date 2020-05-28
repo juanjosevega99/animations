@@ -13,9 +13,9 @@
 <style>
 	:root {
 		--darkGreen: hsl(209, 11%, 40%);
-    --lightGreen: hsl(0, 0%, 0%);
-    --veryLightGreen: hsl(0, 0%, 100%);
-    --titleBlue: hsl(342, 100%, 40%);
+    --lightGreen: hsl(0, 0%, 100%);
+    --ineosRed:  hsl(357, 92%, 45%);
+    --ineosBlack: hsl(0, 0%, 0%);
 	}
 	.characters {
 		width: 100%;
@@ -39,8 +39,8 @@
     display: block;
     padding: 0.5rem;
     text-align: center;
-    color: var(--veryLightGreen);
-    background-color: var(--titleBlue);
+    color: var(--ineosRed);
+    background-color: var(--ineosBlack);
   }
 
 	.loading {
