@@ -78,7 +78,7 @@
   }
 </style>
 
-<div class="Loading" />
+<!-- <div class="Loading" /> -->
 <div class="characters">
 	{#each characters as character}
 		<figure>
