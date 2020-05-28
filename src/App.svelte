@@ -43,7 +43,7 @@
     background-color: var(--ineosBlack);
   }
 
-	.loading {
+	.Loading {
 		position: absolute;
     top: 0;
     left: 0;
@@ -65,15 +65,15 @@
 	@keyframes loader {
 		0% {
 			transform: rotate(0deg);
-			border-top-color: rgba(211, 223, 87, 1);
+			border-top-color: #851835;
     }
     50% {
       transform: rotate(180deg);
-      border-top-color: rgba(211, 223, 87, 1);
+      border-top-color: rgb(167, 26, 33);
     }
     100% {
       transform: rotate(360deg);
-      border-top-color: rgba(211, 223, 87, 1);
+      border-top-color: rgb(167, 26, 33);
     }
   }
 </style>
