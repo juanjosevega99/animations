@@ -1,5 +1,13 @@
 <script>
-	
+	import { onMount } from "svelte";
+	const API = "https://rickandmortyapi.com/api/character";
+	let data = [];
+	let characters = [];
+	onMount(async () => {
+		const response = await fetch(API)
+		data = await response.json()
+		characters = data.results
+	});
 </script>
 
 <main>
@@ -54,11 +62,11 @@
 	}
 </style>
 
+<div class="Loading"></div>
 <div class="characters">
 	{#each characters as character}
 		<figure>
 
 		</figure>
 	{/each}
-	<div class="loading"></div>
 </div>
