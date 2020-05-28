@@ -10,10 +10,6 @@
 	});
 </script>
 
-<main>
-
-</main>
-
 <style>
 	.characters {
 		width: 100%;
@@ -24,6 +20,7 @@
 	figure img {
 		width: 100%;
 		margin: 0;
+		filter: grayscale(100%)
 	}
 	/* .loading {
 		background-color: aqua;
@@ -62,11 +59,14 @@
 	}
 </style>
 
-<div class="Loading"></div>
+<div class="Loading" />
 <div class="characters">
 	{#each characters as character}
 		<figure>
-
+			<img src={character.image} alt={character.name} />
+			<figcaption>{character.name}</figcaption>
 		</figure>
+	{:else}
+		<div class="Loading" />
 	{/each}
 </div>
