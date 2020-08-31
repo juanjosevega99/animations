@@ -1,6 +1,6 @@
 ## Animations
 This project is to learn and practice animations   
-Created in class Platzi Master
+Created in class Platzi Master with Oscar
 
 ## Stack
 - svelte
