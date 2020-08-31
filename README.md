@@ -1,4 +1,5 @@
-## Get started
+## Animations
+This project is to learn and practice animations
 
 Install the dependencies...
 
