@@ -1,5 +1,6 @@
 ## Animations
 This project is to learn and practice animations
+Created in class Platzi Maste
 
 ## Stack
 - svelte
