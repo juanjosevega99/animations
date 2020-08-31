@@ -1,6 +1,10 @@
 ## Animations
 This project is to learn and practice animations
 
+## Stack
+- svelte
+- rollup
+
 Install the dependencies...
 
 ```bash
